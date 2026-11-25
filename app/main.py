@@ -1,7 +1,11 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
+from rag.pipeline import answer, build_index
+
 app = FastAPI(title="Retail Data Assistant")
+
+build_index()
 
 
 class Question(BaseModel):
@@ -21,5 +25,8 @@ def health():
 
 @app.post("/ask", response_model=Answer)
 def ask(q: Question):
-    sources = [f"doc_{i}" for i in range(1, q.top_k + 1)]
-    return Answer(answer=f"You asked: {q.question}", sources=sources)
+    try:
+        text, sources = answer(q.question, k=q.top_k)
+    except Exception as e:
+        raise HTTPException(status_code=503, detail=f"RAG failed: {e}")
+    return Answer(answer=text, sources=sources)
