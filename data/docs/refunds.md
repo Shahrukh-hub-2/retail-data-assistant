@@ -1,0 +1,1 @@
+Desert Mart refunds policy. Refunds go back to the original payment method. Card refunds take 5 to 7 working days. Cash purchases are refunded in cash at the store. Customers without a receipt get store credit only.

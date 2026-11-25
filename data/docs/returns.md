@@ -1,0 +1,1 @@
+Desert Mart returns policy. Customers can return most items within 30 days of purchase with a receipt. Electronics must be returned within 14 days and must be unopened. Food and perishable items cannot be returned unless they are damaged or expired.

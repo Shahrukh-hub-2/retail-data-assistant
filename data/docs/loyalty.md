@@ -1,0 +1,1 @@
+Desert Mart loyalty program. Members earn 1 point for every AED 10 spent. 100 points can be used as AED 5 off the next purchase. Points expire after 12 months if the account is not used.

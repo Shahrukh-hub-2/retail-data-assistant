@@ -1,0 +1,1 @@
+Desert Mart delivery policy. Standard delivery in Dubai takes 1 to 2 days and is free on orders above AED 100. Orders below AED 100 pay a delivery fee of AED 15. Express delivery within 2 hours costs AED 25 and is available from 8 AM to 10 PM.

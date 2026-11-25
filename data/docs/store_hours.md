@@ -1,0 +1,1 @@
+Desert Mart store hours. Stores are open from 8 AM to 11 PM, Saturday to Thursday. On Friday, stores open at 2 PM and close at 11 PM. During Ramadan, store hours change and are shared on the website.

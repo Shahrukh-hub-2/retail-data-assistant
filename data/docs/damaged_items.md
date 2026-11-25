@@ -1,0 +1,1 @@
+Desert Mart damaged items policy. If an item arrives damaged, the customer must report it within 48 hours with a photo. Desert Mart will send a free replacement or give a full refund. The customer does not need to return the damaged item.
